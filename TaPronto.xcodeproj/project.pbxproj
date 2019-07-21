@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		739059CAA8C9797BE96DCBC3 /* Pods_TaPronto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E93E0DA84A6B20FD63F648E3 /* Pods_TaPronto.framework */; };
 		9117D88322E3956300CD93C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9117D88222E3956300CD93C1 /* AppDelegate.swift */; };
 		9117D88522E3956300CD93C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9117D88422E3956300CD93C1 /* ViewController.swift */; };
 		9117D88822E3956300CD93C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9117D88622E3956300CD93C1 /* Main.storyboard */; };
 		9117D88A22E3956600CD93C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9117D88922E3956600CD93C1 /* Assets.xcassets */; };
 		9117D88D22E3956600CD93C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9117D88B22E3956600CD93C1 /* LaunchScreen.storyboard */; };
+		9183673A22E3BDFE000CBDAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9183673922E3BDFE000CBDAF /* GoogleService-Info.plist */; };
+		9183673C22E3C874000CBDAF /* taPronto.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183673B22E3C874000CBDAF /* taPronto.png */; };
+		9183674022E3CE86000CBDAF /* taPronto_LaunchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9183673F22E3CE86000CBDAF /* taPronto_LaunchScreen.png */; };
+		91E7BA1622E4885700ECDED6 /* EntrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7BA1522E4885600ECDED6 /* EntrarViewController.swift */; };
+		91E7BA1822E48B5F00ECDED6 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7BA1722E48B5F00ECDED6 /* CadastroViewController.swift */; };
+		91E7BA1A22E48C7B00ECDED6 /* FotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91E7BA1922E48C7B00ECDED6 /* FotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		660FB48CA9709DCC98D5E4BE /* Pods-TaPronto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaPronto.debug.xcconfig"; path = "Target Support Files/Pods-TaPronto/Pods-TaPronto.debug.xcconfig"; sourceTree = "<group>"; };
 		9117D87F22E3956300CD93C1 /* TaPronto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaPronto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9117D88222E3956300CD93C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9117D88422E3956300CD93C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,14 @@
 		9117D88922E3956600CD93C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9117D88C22E3956600CD93C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9117D88E22E3956600CD93C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9183673922E3BDFE000CBDAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9183673B22E3C874000CBDAF /* taPronto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taPronto.png; sourceTree = "<group>"; };
+		9183673F22E3CE86000CBDAF /* taPronto_LaunchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taPronto_LaunchScreen.png; sourceTree = "<group>"; };
+		91E7BA1522E4885600ECDED6 /* EntrarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrarViewController.swift; sourceTree = "<group>"; };
+		91E7BA1722E48B5F00ECDED6 /* CadastroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		91E7BA1922E48C7B00ECDED6 /* FotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoViewController.swift; sourceTree = "<group>"; };
+		9E8E1DDC38D0F3DAA2A0A7E8 /* Pods-TaPronto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaPronto.release.xcconfig"; path = "Target Support Files/Pods-TaPronto/Pods-TaPronto.release.xcconfig"; sourceTree = "<group>"; };
+		E93E0DA84A6B20FD63F648E3 /* Pods_TaPronto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaPronto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				739059CAA8C9797BE96DCBC3 /* Pods_TaPronto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				9117D88122E3956300CD93C1 /* TaPronto */,
 				9117D88022E3956300CD93C1 /* Products */,
+				C4C8367986B63C0F2BFEC23C /* Pods */,
+				B331B28559C305E2F9E22598 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,45 @@
 		9117D88122E3956300CD93C1 /* TaPronto */ = {
 			isa = PBXGroup;
 			children = (
+				9117D8A222E3B89700CD93C1 /* Views */,
 				9117D88222E3956300CD93C1 /* AppDelegate.swift */,
-				9117D88422E3956300CD93C1 /* ViewController.swift */,
 				9117D88622E3956300CD93C1 /* Main.storyboard */,
 				9117D88922E3956600CD93C1 /* Assets.xcassets */,
+				9183673B22E3C874000CBDAF /* taPronto.png */,
+				9183673F22E3CE86000CBDAF /* taPronto_LaunchScreen.png */,
 				9117D88B22E3956600CD93C1 /* LaunchScreen.storyboard */,
 				9117D88E22E3956600CD93C1 /* Info.plist */,
+				9183673922E3BDFE000CBDAF /* GoogleService-Info.plist */,
 			);
 			path = TaPronto;
+			sourceTree = "<group>";
+		};
+		9117D8A222E3B89700CD93C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91E7BA1522E4885600ECDED6 /* EntrarViewController.swift */,
+				91E7BA1922E48C7B00ECDED6 /* FotoViewController.swift */,
+				91E7BA1722E48B5F00ECDED6 /* CadastroViewController.swift */,
+				9117D88422E3956300CD93C1 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B331B28559C305E2F9E22598 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E93E0DA84A6B20FD63F648E3 /* Pods_TaPronto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4C8367986B63C0F2BFEC23C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				660FB48CA9709DCC98D5E4BE /* Pods-TaPronto.debug.xcconfig */,
+				9E8E1DDC38D0F3DAA2A0A7E8 /* Pods-TaPronto.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9117D89122E3956600CD93C1 /* Build configuration list for PBXNativeTarget "TaPronto" */;
 			buildPhases = (
+				E625A0F7995475660BBFCC6B /* [CP] Check Pods Manifest.lock */,
 				9117D87B22E3956300CD93C1 /* Sources */,
 				9117D87C22E3956300CD93C1 /* Frameworks */,
 				9117D87D22E3956300CD93C1 /* Resources */,
+				D911F86468A496CBF73C91B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +175,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				9117D88D22E3956600CD93C1 /* LaunchScreen.storyboard in Resources */,
+				9183674022E3CE86000CBDAF /* taPronto_LaunchScreen.png in Resources */,
+				9183673A22E3BDFE000CBDAF /* GoogleService-Info.plist in Resources */,
 				9117D88A22E3956600CD93C1 /* Assets.xcassets in Resources */,
+				9183673C22E3C874000CBDAF /* taPronto.png in Resources */,
 				9117D88822E3956300CD93C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D911F86468A496CBF73C91B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaPronto/Pods-TaPronto-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaPronto/Pods-TaPronto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E625A0F7995475660BBFCC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaPronto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9117D87B22E3956300CD93C1 /* Sources */ = {
@@ -136,7 +244,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9117D88522E3956300CD93C1 /* ViewController.swift in Sources */,
+				91E7BA1A22E48C7B00ECDED6 /* FotoViewController.swift in Sources */,
 				9117D88322E3956300CD93C1 /* AppDelegate.swift in Sources */,
+				91E7BA1622E4885700ECDED6 /* EntrarViewController.swift in Sources */,
+				91E7BA1822E48B5F00ECDED6 /* CadastroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +391,7 @@
 		};
 		9117D89222E3956600CD93C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660FB48CA9709DCC98D5E4BE /* Pods-TaPronto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +410,7 @@
 		};
 		9117D89322E3956600CD93C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8E1DDC38D0F3DAA2A0A7E8 /* Pods-TaPronto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
